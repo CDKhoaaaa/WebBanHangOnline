@@ -26,6 +26,7 @@ namespace WebBanHangOnline.Controllers
             SignInManager = signInManager;
         }
 
+        //Tạo quản lý đăng kí ở đây
         public ApplicationSignInManager SignInManager
         {
             get

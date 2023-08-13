@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebBanHangOnline.Models
 {
+
+    //Điều kiện cần có để đăng ksi
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
