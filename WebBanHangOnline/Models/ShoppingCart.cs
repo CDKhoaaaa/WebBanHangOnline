@@ -7,6 +7,7 @@ namespace WebBanHangOnline.Models
 {
     public class ShoppingCart
     {
+        //cart shopping
         public List<ShoppingCartItem> Items { get; set; }
         public ShoppingCart()
         {
