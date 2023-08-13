@@ -56,6 +56,7 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
             return View(model);
         }
 
+        //Add Edit Function for NewController
         public ActionResult Edit(int id)
         {
             var item = db.News.Find(id);
