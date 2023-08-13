@@ -89,6 +89,7 @@ namespace WebBanHangOnline
     }
 
     // Configure the application sign-in manager which is used in this application.
+    //Đăng kí
     public class ApplicationSignInManager : SignInManager<ApplicationUser, string>
     {
         public ApplicationSignInManager(ApplicationUserManager userManager, IAuthenticationManager authenticationManager)
