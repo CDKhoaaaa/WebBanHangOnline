@@ -8,6 +8,7 @@ using WebBanHangOnline.Models.EF;
 
 namespace WebBanHangOnline.Areas.Admin.Controllers
 {
+    //Update Employee can access PostController
     [Authorize(Roles = "Admin,Employee")]
     public class PostsController : Controller
     {
